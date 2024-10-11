@@ -1,0 +1,52 @@
+@font-face {
+    font-family:'custom font' ;
+    src: url(Raleway-Medium.ttf) format('true type');
+}
+body{
+font-family: 'custom font',sans-serif;
+background-color: rgb(15, 15, 15);
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#girl{
+    margin-top: 40px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+h1,h3{
+    color: white;
+    font-weight: lighter;
+}
+h3{
+    margin-top: 0px;
+    color: lime;
+   font-size: large;
+   font-weight: lighter;
+}
+h4{
+color: white;
+font-weight: lighter;
+}
+.skills{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#Github,#front,#link,#tweet,#ig{
+    /* border: 4px solid white; */
+    width: 300px;
+    padding: 5px 2px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: rgb(29, 29, 29);
+    font-weight: bold;
+}
